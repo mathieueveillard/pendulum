@@ -1,9 +1,7 @@
-# js-kata-starter
+# pendulum
 
-Starter project for kata (Node, TypeScript, Jest)
-
-## Getting started
-
-- **Fork**, then clone the repository
-- Install dependencies
-- Start developing (`npm test`)
+```typescript
+pendulum([6, 6, 8, 5, 10]); // [10, 6, 5, 6, 8]
+pendulum([-9, -2, -10, -6]); // [-6, -10, -9, -2]
+pendulum([11, -16, -18, 13, -11, -12, 3, 18]); // [13, 3, -12, -18, -16, -11, 11, 18]
+```
